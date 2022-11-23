@@ -9,7 +9,6 @@ inner
   max-width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
-  text-align: center;
 }
 /*===========================
 section-title
@@ -20,6 +19,7 @@ section-title
   letter-spacing: 10px;
   padding-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 /*===========================
@@ -28,6 +28,13 @@ header
 
 .header {
   background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
 }
 .header-inner {
   display: flex;
@@ -54,24 +61,24 @@ header
 }
 
 /*===========================
-mv
+main-visual
 ===========================*/
 
-.mv {
+.main-visual {
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center / cover;
   padding: 400px 0;
   margin: 0 auto;
 }
-.mv-text-box {
+.main-visual-text-box {
   text-align: center;
 }
-.mv-text-box .page-title {
+.main-visual-text-box .page-title {
   color: #6ba7eb;
   font-size: 65px;
   font-weight: 700;
   line-height: 1;
 }
-.mv-text-box span {
+.main-visual-text-box span {
   display: inline-block;
   color: #fff;
   font-size: 40px;
@@ -98,6 +105,7 @@ work
 .work-img-box {
   width: 40%;
   flex-shrink: 0;
+  text-align: center;
 }
 .work-img-box img {
   vertical-align: middle;
@@ -129,7 +137,6 @@ skills
 ===========================*/
 
 .skills-inner {
-  margin: 0 auto;
   background: #fff;
 }
 
@@ -182,7 +189,6 @@ plan
   background: #d0dfea;
 }
 .plan-inner {
-  margin: 0 auto;
   padding-bottom: 50px;
 }
 
@@ -196,6 +202,7 @@ plan
   font-size: 16px;
   line-height: 26px;
   border-left: 2px solid #fff;
+  text-align: center;
 }
 
 .plan-table tr:nth-of-type(even) {
@@ -233,6 +240,7 @@ sns
   max-width: 185px;
   padding: 25px 0;
   transition: 0.5s;
+  text-align: center;
 }
 .sns-icon-box:hover {
   background: #fff;
@@ -258,7 +266,7 @@ footer
   padding: 20px 0 25px;
 }
 
-.footer-inner {
+.copy-wrap {
   text-align: right;
 }
 
