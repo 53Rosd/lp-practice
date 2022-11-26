@@ -3,7 +3,6 @@
 /*===========================
 inner
 ===========================*/
-
 .inner {
   width: 1100px;
   max-width: 100%;
@@ -13,11 +12,9 @@ inner
 /*===========================
 section-title
 ===========================*/
-
 .section-title {
   font-size: 40px;
   letter-spacing: 10px;
-  padding-top: 50px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -25,9 +22,9 @@ section-title
 /*===========================
 header
 ===========================*/
-
 .header {
   background: #fff;
+  padding: 15px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -41,7 +38,6 @@ header
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
 }
 
 .header-logo i {
@@ -63,7 +59,6 @@ header
 /*===========================
 main-visual
 ===========================*/
-
 .main-visual {
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center / cover;
   padding: 400px 0;
@@ -90,16 +85,15 @@ main-visual
 /*===========================
 work
 ===========================*/
-
 .work {
   background: #e3f2fd;
+  padding-top: 50px;
 }
 
 .work-inner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 50px;
 }
 
 .work-img-box {
@@ -135,9 +129,9 @@ work
 /*===========================
 skills
 ===========================*/
-
-.skills-inner {
+.skills {
   background: #fff;
+  padding: 50px 0 70px;
 }
 
 .skills-item-box {
@@ -157,7 +151,7 @@ skills
 }
 
 .skill-item:nth-last-of-type(-n + 3) {
-  margin-bottom: 70px;
+  margin-bottom: 0;
 }
 
 .skill-item a {
@@ -187,9 +181,7 @@ plan
 
 .plan {
   background: #d0dfea;
-}
-.plan-inner {
-  padding-bottom: 50px;
+  padding: 50px 0 50px;
 }
 
 .plan-table {
